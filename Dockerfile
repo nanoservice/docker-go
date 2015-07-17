@@ -4,7 +4,6 @@ MAINTAINER Oleksii Fedorov <waterlink000@gmail.com>
 
 RUN apk add --update go
 RUN apk add --update git
-RUN apk add --update openssh-client
 
 RUN mkdir -p /go/src /go/bin && chmod -R 777 /go
 
